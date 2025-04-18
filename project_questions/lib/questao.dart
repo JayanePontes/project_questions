@@ -9,6 +9,7 @@ class Questao extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.all(10),
+      padding: const EdgeInsets.only(top: 20),
       child: Center(
         child: Text(
           perguntas,
